@@ -182,7 +182,7 @@ Global variables with the `uniform` qualifier are constant across each iteration
 
 #### Annotations to customize UI appearance:
 
- * ui_type: Can be `input`, `drag`, `slider`, `combo`, `radio` or `color`
+ * ui_type: Can be `input`, `drag`, `slider`, `combo` (on integer variables), `radio` (on integer variables), `color` (on vector variables) or `button` (on boolean variables)
  * ui_min: The smallest value allowed in this variable (required when `ui_type = "drag"` or `ui_type = "slider"`)
  * ui_max: The largest value allowed in this variable (required when `ui_type = "drag"` or `ui_type = "slider"`)
  * ui_step: The value added/subtracted when clicking the button next to the slider
